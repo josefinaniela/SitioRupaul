@@ -110,31 +110,31 @@
             <p class="queenindex"> You queen can stand before me!</p>
             <p class="joinindex">Join now and participate to win the chance to meet Rupaul</p>
             <div class="row mx-auto" style="width: 80%; border-radius: 20px; border-color: white; border-style: double;">
-                <form action="" method="post" class="needs-validation py-3" novalidate style="width: 80%;">
+                <form netlify method="post" class="needs-validation py-3" novalidate style="width: 80%;">
                     <p class="signup pb-2">Sign Up</p>
                     <div class="mb-3">
                         <label for="campoName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="campoName" required>
+                        <input type="text" class="form-control" id="campoName" required name="nombre">
                         <span class="invalid-feedback">Please provide a valid answer</span>
                       </div>
                       <div class="mb-3">
                         <label for="campoLastname" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="campoLastname" required>
+                        <input type="text" class="form-control" id="campoLastname" required name="apellido">
                         <span class="invalid-feedback">Please provide a valid answer</span>
                       </div>
                       <div class="mb-3">
                         <label for="campoEmail" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="campoEmail" required>
+                        <input type="email" class="form-control" id="campoEmail" required name="email">
                         <span class="invalid-feedback">Please provide a valid answer</span>
                       </div>
                       <div class="mb-3">
                         <label for="campoPhone" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="campoPhone" required>
+                        <input type="tel" class="form-control" id="campoPhone" required name="phone">
                         <span class="invalid-feedback">Please provide a valid answer</span>
                       </div>
                       <div class="mb-3">
                         <label for="campoMensaje" class="form-label">Why you should win?</label>
-                        <textarea class="form-control" id="campoMensaje" required></textarea>
+                        <textarea class="form-control" id="campoMensaje" required name="mensaje"></textarea>
                         <span class="invalid-feedback">Please provide a valid answer</span>
                       </div>
                       <input type="submit" value="Register" class="btn px-3 mt-3">
