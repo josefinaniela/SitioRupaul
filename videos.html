@@ -16,19 +16,36 @@
 
 <body>
     <header>
-    <div class="container-fluid">
-     <div class="container d-flex justify-content-between p-0">
-        <a href="index.html">
-            <img class="icono" src="img/icono.png" alt="icono">
-            <img class="logo" src="img/logo.png" alt="logo">
-        </a>
-        <div class="navbar d-flex justify-content-between">
-                <a class="link1 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="music.html">Music</a>
-                <a class="link2 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="videos.html">Videos</a>
-                <a class="link3 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="meet.html">Meet & Greet</a>
-        </div>
-     </div>
-    </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand d-flex" href="index.html">
+                <img class="icono" src="img/icono.png" alt="icono">
+                <img class="logo d-xs-none d-md-block" src="img/logo.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
+                      <a class="nav-link" aria-current="page" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
+                      <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
+                        <a class="nav-link" href="meet.html">Meet & Greet</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <section id="bloquevideos">
@@ -39,13 +56,13 @@
 
      <div class="container-fluid">
         <div class="container">
-            <div class="row gx-2 gy-5 mb-3 text-center">
+            <div class="row gx-2 gy-lg-5 mb-lg-3 text-center">
                 <div class="col-lg-6">
                     <div class="albums">
                         <div class="albumportada">
-                            <iframe class="videitos rounded-4" src="https://www.youtube.com/embed/dQ-CJh8JmGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="videitos rounded-4" width="90%" src="https://www.youtube.com/embed/dQ-CJh8JmGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <div class="textoalbums pt-3">
+                        <div class="textoalbums pt-3 pb-3">
                             <a href="https://www.youtube.com/watch?v=dQ-CJh8JmGA" style="text-decoration: none;color: #F93CA0;">
                             <h1>
                                 Catwalk (feat. Skeltal Ki) - Official Music Video
@@ -57,9 +74,9 @@
                 <div class="col-lg-6">
                     <div class="albums">
                         <div class="albumportada">
-                            <iframe class="videitos rounded-4" src="https://www.youtube.com/embed/nhelxmGoFGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="videitos rounded-4" width="90%" src="https://www.youtube.com/embed/nhelxmGoFGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <div class="textoalbums pt-3">
+                        <div class="textoalbums pt-3 pb-3">
                             <a href="https://www.youtube.com/watch?v=nhelxmGoFGM" style="text-decoration: none;color: #F93CA0;">
                             <h1>
                                 A.S.M.R Lover (feat. Skeltal Ki) - (VISUALIZER)
@@ -74,13 +91,13 @@
      </div>
      <div class="container-fluid">
         <div class="container">
-            <div class="row gx-2 gy-5 mb-3 text-center">
+            <div class="row gx-2 gy-lg-5 mb-lg-3 text-center">
                 <div class="col-lg-6">
                     <div class="albums">
                         <div class="albumportada">
-                            <iframe class="videitos rounded-4" src="https://www.youtube.com/embed/d3jFlsUkEWs" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="videitos rounded-4" width="90%" src="https://www.youtube.com/embed/d3jFlsUkEWs" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <div class="textoalbums pt-3">
+                        <div class="textoalbums pt-3 pb-3">
                             <a href="https://www.youtube.com/watch?v=d3jFlsUkEWs" style="text-decoration: none;color: #F93CA0;">
                             <h1>
                                 Cake & Candy (Visualizer)
@@ -92,9 +109,9 @@
                 <div class="col-lg-6">
                     <div class="albums">
                         <div class="albumportada">
-                            <iframe class="videitos rounded-4" src="https://www.youtube.com/embed/t8JRQsts1zc" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="videitos rounded-4" width="90%" src="https://www.youtube.com/embed/t8JRQsts1zc" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <div class="textoalbums pt-3">
+                        <div class="textoalbums pt-3 pb-3">
                             <a href="https://www.youtube.com/watch?v=t8JRQsts1zc" style="text-decoration: none;color: #F93CA0;">
                             <h1>
                                 Show Me That You Festive (Visualizer)
@@ -109,13 +126,13 @@
      </div>
      <div class="container-fluid">
         <div class="container">
-            <div class="row gx-2 gy-5 mb-3 text-center">
+            <div class="row gx-2 gy-lg-5 mb-lg-3 text-center">
                 <div class="col-lg-6">
                     <div class="albums">
                         <div class="albumportada">
-                            <iframe class="videitos rounded-4" src="https://www.youtube.com/embed/1YQ7wI7kKr0" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="videitos rounded-4" width="90%" src="https://www.youtube.com/embed/1YQ7wI7kKr0" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <div class="textoalbums pt-3">
+                        <div class="textoalbums pt-3 pb-3">
                             <a href="https://www.youtube.com/watch?v=1YQ7wI7kKr0" style="text-decoration: none;color: #F93CA0;">
                             <h1>
                                 Star Baby
@@ -127,9 +144,9 @@
                 <div class="col-lg-6">
                     <div class="albums">
                         <div class="albumportada">
-                            <iframe class="videitos rounded-4" src="https://www.youtube.com/embed/489EfB3yTtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="videitos rounded-4" width="90%" src="https://www.youtube.com/embed/489EfB3yTtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <div class="textoalbums pt-3">
+                        <div class="textoalbums pt-3 pb-3">
                             <a href="https://www.youtube.com/watch?v=489EfB3yTtY" style="text-decoration: none;color: #F93CA0;">
                             <h1>
                                 Just What They Want - Official Lyric Video
@@ -142,8 +159,13 @@
             </div>
         </div>
      </div>
-     <a class="botonvideos px-4 py-3 rounded-4 d-flex w-25 mt-4 mb-4 mx-auto justify-content-center" href="https://www.youtube.com/@rutube">Go to YouTube</a>
+     <a class="botonvideospage px-4 py-3 rounded-4 d-flex w-25 mt-4 mb-4 mx-auto justify-content-center" href="https://www.youtube.com/@rutube">Go to YouTube</a>
       </section>
+
+      <div class="renglon">
+        <div class="carpage">
+            <img src="img/car.png">
+        </div>
       <div class="separador">
 
       </div>
@@ -152,7 +174,7 @@
    
        <div class="logofooter">
            <a href="index.html">
-           <img class="logo" src="img/logo.png" alt="logo">
+           <img class="logofoot" src="img/logo.png" alt="logo">
            </a>
        </div>
    
@@ -175,5 +197,6 @@
    
        </footer>
    </section>
-         
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+   <script src="js/validation.js"></script>
    </body>

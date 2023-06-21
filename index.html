@@ -16,95 +16,138 @@
 
 <body>
     <header>
-    <div class="container-fluid">
-     <div class="container d-flex justify-content-between p-0">
-        <a href="index.html" class="">
-            <img class="icono" src="img/icono.png" alt="icono">
-            <img class="logo" src="img/logo.png" alt="logo">
-        </a>
-        <div class="navbar d-flex justify-content-between">
-                <a class="link1 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="music.html">Music</a>
-                <a class="link2 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="videos.html">Videos</a>
-                <a class="link3 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="meet.html">Meet & Greet</a>
-        </div>
-     </div>
-    </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand d-flex" href="index.html">
+                <img class="icono" src="img/icono.png" alt="icono">
+                <img class="logo d-xs-none d-md-block" src="img/logo.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
+                      <a class="nav-link" aria-current="page" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
+                      <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
+                        <a class="nav-link" href="meet.html">Meet & Greet</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
-   <iframe class="videoindex pt-3" src="https://www.youtube.com/embed/YqD328P1_UA?autoplay=1" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="container">
+      <iframe class="videoindex" src="https://www.youtube.com/embed/YqD328P1_UA?autoplay=1" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
     <section id="bloqueindex">
-        <div class="videostitulo px-5 pt-3">
-            <a href="music.html" style="text-decoration: none; color: #B4FDE6;"><p>MUSIC</p></a>
-        </div>
-     <div class="container pb-5">
-        <div class="row">
-            <div class="d-flex align-items-center">
-                <div>
-                    <a href="https://open.spotify.com/album/5STotQGUXPZGyEj8Qr38Dv"><img class="albumindex col-lg-6 col-md-12 rounded-4" src="img/album index.jpg" alt="foto album"></a>
-                </div>
-                <div class="textobannermusic col-lg-6 col-md-12">
-                    <a href="https://open.spotify.com/album/5STotQGUXPZGyEj8Qr38Dv" style="text-decoration: none; color: #B4FDE6;">
-                <p class="texto1"> Black Butta Now Available <br></p>
-                <p class="texto2 mx-5">Stream songs including "A.S.M.R Lover (feat. Skeltal Ki)", "Cake & Candy" and more.</p>
-                    </a>
-                <a class="botonmusic px-4 py-3 rounded-4 d-flex w-25 mt-4 mb-4 mx-auto justify-content-center" href="music.html">View more</a>
-                </div>
-            </div>
-        </div>
-     </div>
-      </section>
-
-      <section class="container-fluid row">
-        
+    <div class="container-fluid">
+        <div class="container">
             <div class="videostitulo px-5 pt-3">
-                  <a href="videos.html" style="text-decoration: none; color: #F93CA0;"><p>VIDEOS</p></a>
+                <a href="music.html" style="text-decoration: none; color: #B4FDE6;"><p>MUSIC</p></a>
             </div>
-             <div class="container text-center">
-                <div class="row align-items-center">
-                <div class="video1 col-lg-4 col-md-12 px-3 pb-3">
-                    <iframe class="primervideo rounded-4" src="https://www.youtube.com/embed/dQ-CJh8JmGA" width="100%" height="300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="imagenalbum">
+                        <a href="https://open.spotify.com/album/5STotQGUXPZGyEj8Qr38Dv"><img class="albumindex col-lg-6 col-md-12 rounded-4" src="img/album index.jpg" alt="foto album"></a>
+                    </div>
                 </div>
-                <div class="video2 col-lg-4 col-md-12 px-3 pb-3">
-                    <iframe class="segundovideo rounded-4" src="https://www.youtube.com/embed/nhelxmGoFGM" width="100%" height="300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="col-lg-6">
+                    <div class="textobannermusic mt-4">
+                        <a href="https://open.spotify.com/album/5STotQGUXPZGyEj8Qr38Dv" style="text-decoration: none; color: #B4FDE6;">
+                            <p class="titulobannermusic"> Black Butta Now Available <br></p>
+                            <p class="descripcionbannermusic mx-5 text-center">Stream songs including "A.S.M.R Lover (feat. Skeltal Ki)", "Cake & Candy" and more.</p>
+                                </a>
+                            <a class="botonmusic px-4 py-3 rounded-4 d-flex w-25 mt-4 mb-4 mx-auto justify-content-center" href="music.html">View more</a>
+                    </div>
                 </div>
-                <div class="video3 col-lg-4 col-md-12 px-3 pb-3">
-                    <iframe class="tercervideo rounded-4" src="https://www.youtube.com/embed/d3jFlsUkEWs" width="100%" height="300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    </section>
+
+      <section class="container-fluid">
+        <div class="container">
+          <div class="videostitulo px-5 pt-3">
+                <a href="videos.html" style="text-decoration: none; color: #F93CA0;"><p>VIDEOS</p></a>
+          </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-12">
+                    <div class="videosss">
+                        <iframe class="rounded-4" width="100%" height="300" src="https://www.youtube.com/embed/dQ-CJh8JmGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                 </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="videosss">
+                        <iframe class="rounded-4" width="100%" height="300" src="https://www.youtube.com/embed/nhelxmGoFGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                 </div>
-             </div>
-        
-        <a class="botonvideos px-4 py-3 rounded-4 d-flex w-25 mt-4 mb-4 mx-auto justify-content-center" href="videos.html">View more</a>
+                <div class="col-lg-4 col-md-12">
+                    <div class="videosss">
+                        <iframe class="rounded-4" width="100%" height="300" src="https://www.youtube.com/embed/d3jFlsUkEWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="botonvideos px-4 py-3 rounded-4 d-flex w-25 mt-4 mb-4 mx-auto justify-content-center text-center" href="videos.html">View more</a>
       </section>
         
-      
-      
-
-<section id="formindex">
-    <div class="tituloform">
-        <p class="queenindex"> You queen can stand before me!</p>
-        <p class="joinindex">Join now and participate to win the chance to meet Rupaul</p>
-    </div>
-        <br>
-        <div class="bordeform">
-            <br>
-        <form action="respuesta.html" method="post">
-            <h1>Sign up</h1>
-            <p>First name <input type="text" name="nombre" required></p>
-            
-            <p>Last name <input type="text" name="nombre" required></p>
-            
-            <p>Email address <input type="email" name="email" required></p>
-            
-            <p>Phone number <input type="tel" name="phone" required></p>
-            
-            <p>Why should you win? <textarea name="mensaje" required></textarea></p>
-        
-            <p> <input type="submit" class="boton" name="envio" value="Register"></p>
-        </form>
+      <section id="meetand" class="container-fluid">
+        <div class="container pt-3 pb-5">
+            <p class="queenindex"> You queen can stand before me!</p>
+            <p class="joinindex">Join now and participate to win the chance to meet Rupaul</p>
+            <div class="row mx-auto" style="width: 80%; border-radius: 20px; border-color: white; border-style: double;">
+                <form action="" method="post" class="needs-validation py-3" novalidate style="width: 80%;">
+                    <p class="signup pb-2">Sign Up</p>
+                    <div class="mb-3">
+                        <label for="campoName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="campoName" required>
+                        <span class="invalid-feedback">Please provide a valid answer</span>
+                      </div>
+                      <div class="mb-3">
+                        <label for="campoLastname" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="campoLastname" required>
+                        <span class="invalid-feedback">Please provide a valid answer</span>
+                      </div>
+                      <div class="mb-3">
+                        <label for="campoEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="campoEmail" required>
+                        <span class="invalid-feedback">Please provide a valid answer</span>
+                      </div>
+                      <div class="mb-3">
+                        <label for="campoPhone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="campoPhone" required>
+                        <span class="invalid-feedback">Please provide a valid answer</span>
+                      </div>
+                      <div class="mb-3">
+                        <label for="campoMensaje" class="form-label">Why you should win?</label>
+                        <textarea class="form-control" id="campoMensaje" required></textarea>
+                        <span class="invalid-feedback">Please provide a valid answer</span>
+                      </div>
+                      <input type="submit" value="Register" class="btn px-3 mt-3">
+                </form>
+            </div>
         </div>
-</section>
+      </section>
+      
 
+
+      <div class="renglon">
+        <div class="carpage">
+            <img src="img/car.png">
+        </div>
   
    <div class="separador">
 
@@ -114,7 +157,7 @@
 
     <div class="logofooter">
         <a href="index.html">
-        <img class="logo" src="img/logo.png" alt="logo">
+        <img class="logofoot" src="img/logo.png" alt="logo">
         </a>
     </div>
 
@@ -138,4 +181,5 @@
     </footer>
 </section>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ <script src="js/validation.js"></script>
 </body>

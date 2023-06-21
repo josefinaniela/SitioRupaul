@@ -16,29 +16,29 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand d-flex" href="index.html">
                 <img class="icono" src="img/icono.png" alt="icono">
-                <img class="logo" src="img/logo.png" alt="logo">
+                <img class="logo d-xs-none d-md-block" src="img/logo.png" alt="logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="music.html">Music</a>
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
+                      <a class="nav-link" aria-current="page" href="music.html">Music</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
                       <a class="nav-link" href="videos.html">Videos</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ps-3 pb-md-3 pb-sm-3 pb-xs-3">
                         <a class="nav-link" href="meet.html">Meet & Greet</a>
                       </li>
                   </ul>
@@ -46,64 +46,74 @@
               </div>
             </div>
           </nav>
-    <div class="container-fluid">
-     <div class="container d-flex justify-content-between p-0">
-        <a href="index.html">
-            <img class="icono" src="img/icono.png" alt="icono">
-            <img class="logo" src="img/logo.png" alt="logo">
-        </a>
-        <div class="navbar d-flex justify-content-between">
-                <a class="link1 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="music.html">Music</a>
-                <a class="link2 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="videos.html">Videos</a>
-                <a class="link3 px-4" style="color: #F93CA0; text-decoration: none;font-size: large;" href="meet.html">Meet & Greet</a>
-        </div>
-     </div>
-    </div>
     </header>
 <section id="texto">
         <p class="queen"> You queen can stand before me!</p>
         <p class="join">Join now and participate to win the chance to meet Rupaul</p>
     </section>
-    <section>
-        <iframe class="video" src="https://www.youtube.com/embed/_CGxeRPA1Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+      <iframe class="video" src="https://www.youtube.com/embed/_CGxeRPA1Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        <div class="cajas">
-            <div class="cajacontenedora">
-                <div>
+      <section class="container-fluid">
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <a href="https://www.google.com/maps/dir//3555+S+Las+Vegas+Blvd,+Las+Vegas,+NV+89109,+Estados+Unidos/@36.1164205,-115.2408318,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c8c43bca8fd755:0x645b9d40c4e2ea75!2m2!1d-115.1707917!2d36.1164409?entry=ttu">
                     <img class="flamingo rounded-4" src="img/flamingo.jpg" alt="foto hotel">
+                    </a>
                 </div>
-                <div class="locacion d-flex flex-column">
-                <p class="where">WHERE?</p>
-                <p class="texto1"> Hotel Flamingo Las Vegas <br> </p> 
-                <p> Las Vegas Blvd, Las Vegas, NV 89109, United States</p>
+                <div class="col-lg-6 col-md-12 mt-2">
+                    <a href="https://www.google.com/maps/dir//3555+S+Las+Vegas+Blvd,+Las+Vegas,+NV+89109,+Estados+Unidos/@36.1164205,-115.2408318,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c8c43bca8fd755:0x645b9d40c4e2ea75!2m2!1d-115.1707917!2d36.1164409?entry=ttu" style="color: #F93CA0; text-decoration: none;">
+                 <p class="where">WHERE?</p>
+                 <p class="texto1"> Hotel Flamingo Las Vegas <br> </p> 
+                 <p class="direc"> Las Vegas Blvd, Las Vegas, NV 89109, United States</p>
+                    </a>
                 </div>
             </div>
-
         </div>
       </section>
 
-      
 
-<section id="form">
-        <h1>Sign up</h1>
-        <br>
-        <form action="respuesta.html" method="post">
-            <p>First name <input type="text" name="nombre" required></p>
-            
-            <p>Last name <input type="text" name="nombre" required></p>
-            
-            <p>Email address <input type="email" name="email" required></p>
-            
-            <p>Phone number <input type="tel" name="phone" required></p>
-            
-            <p>Why should you win? <textarea name="mensaje" required></textarea></p>
-        
-            <p> <input type="submit" class="boton" name="envio" value="Register"></p>
-        </form>
-</section>
+<section id="meetandpage" class="container-fluid">
+    <div class="container pt-5 pb-5">
+        <div class="row mx-auto" style="width: 80%; border-radius: 20px; border-color: white; border-style: double;">
+            <form action="" method="post" class="needs-validation py-3" novalidate style="width: 80%;">
+                <p class="signup pb-2">Sign Up</p>
+                <div class="mb-3">
+                    <label for="campoName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="campoName" required>
+                    <span class="invalid-feedback">Please provide a valid answer</span>
+                  </div>
+                  <div class="mb-3">
+                    <label for="campoLastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="campoLastname" required>
+                    <span class="invalid-feedback">Please provide a valid answer</span>
+                  </div>
+                  <div class="mb-3">
+                    <label for="campoEmail" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="campoEmail" required>
+                    <span class="invalid-feedback">Please provide a valid answer</span>
+                  </div>
+                  <div class="mb-3">
+                    <label for="campoPhone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="campoPhone" required>
+                    <span class="invalid-feedback">Please provide a valid answer</span>
+                  </div>
+                  <div class="mb-3">
+                    <label for="campoMensaje" class="form-label">Why you should win?</label>
+                    <textarea class="form-control" id="campoMensaje" required></textarea>
+                    <span class="invalid-feedback">Please provide a valid answer</span>
+                  </div>
+                  <input type="submit" value="Register" class="btn px-3 mt-3">
+            </form>
+        </div>
+    </div>
+  </section>
 
-  
+  <div class="renglon">
+    <div class="carpage">
+        <img src="img/car.png">
+    </div>
    <div class="separador">
 
    </div>
@@ -112,7 +122,7 @@
 
     <div class="logofooter">
         <a href="index.html">
-        <img class="logo" src="img/logo.png" alt="logo">
+        <img class="logofoot" src="img/logo.png" alt="logo">
         </a>
     </div>
 
@@ -136,6 +146,7 @@
     </footer>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ <script src="js/validation.js"></script>
 </body>
 
 
